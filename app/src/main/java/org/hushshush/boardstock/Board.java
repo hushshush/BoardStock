@@ -11,7 +11,7 @@ public class Board extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_board);
+        setContentView(R.layout.history_item);
 
         TextView makeNew = (TextView) findViewById(R.id.make_new);
         makeNew.setOnClickListener(new View.OnClickListener() {
