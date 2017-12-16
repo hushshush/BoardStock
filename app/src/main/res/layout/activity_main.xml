@@ -1,35 +1,252 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="org.hushshush.boardstock.MainActivity">
 
-    <TextView
-        android:id="@+id/numbers"
-        style="@style/ItemStyle"
-        android:background="@color/uno_rev3"
-        android:text="@string/uno_rev3" />
+    <LinearLayout
 
-    <TextView
-        android:id="@+id/family"
-        style="@style/ItemStyle"
-        android:background="@color/mega"
-        android:text="@string/mega" />
+        android:id="@+id/uno_rev3"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal"
+        android:background="@color/uno_rev3">
 
-    <TextView
-        android:id="@+id/colors"
-        style="@style/ItemStyle"
-        android:background="@color/zero_w"
-        android:text="@string/zero_w" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/uno_rev3"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"/>
 
-    <TextView
-        android:id="@+id/phrases"
-        style="@style/ItemStyle"
-        android:background="@color/three_b"
-        android:text="@string/three_b" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"></View>
+
+        <LinearLayout
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/uno_rev3_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="60"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lihat Riwayat"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="bottom"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/mega"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal"
+        android:background="@color/mega">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/mega"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"></View>
+
+        <LinearLayout
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mega_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="60"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lihat Riwayat"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="bottom"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+
+        android:id="@+id/zero_w"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal"
+        android:background="@color/zero_w">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/zero_w"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"></View>
+
+        <LinearLayout
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/zero_w_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="60"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lihat Riwayat"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="bottom"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/three_b"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal"
+        android:background="@color/three_b">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/three_b"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"></View>
+
+        <LinearLayout
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/three_b_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="60"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"
+                android:textSize="32sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lihat Riwayat"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:gravity="bottom"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
