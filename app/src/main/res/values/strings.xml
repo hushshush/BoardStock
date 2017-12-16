@@ -1,3 +1,8 @@
 <resources>
+
     <string name="app_name">BoardStock</string>
+    <string name="uno_rev3">Arduino Uno Rev3</string>
+    <string name="mega">Arduino Mega</string>
+    <string name="zero_w">Raspberry Pi Zero W</string>
+    <string name="three_b">Raspberry Pi 3 Model B</string>
 </resources>

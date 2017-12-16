@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="uno_rev3">#009FDF</color>
+    <color name="mega">#00CED1</color>
+    <color name="zero_w">#F27762</color>
+    <color name="three_b">#DFA1B7</color>
 </resources>
