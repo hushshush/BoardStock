@@ -1,0 +1,31 @@
+1. Tidak ada ViewGroup dengan atribut "android:align_below". Meski begitu, tergantung apa yang ingin dicapai, jika ingin memosisikan bagian atas sebuah view di bawah anchor view, bisa melakukannya dengan "android:layout_below" milik RelativeLayout.
+
+2. Di App Manifest
+
+3.
+
+4. Private. Karena public bisa diakses oleh semua. Default bisa diakses kelas lain. Protected bisa diakses kelas lain dan package lain asalkan dia subclassnya.
+
+5. Local variable:
+- Dibuat di dalam sebuah method, constructor, atau blok
+- Scopenya hanya terbatas pada method, constructor atau blok tersebut. 
+- Ketika keluar dari method, constructor atau blok tersebut, variablenya dimusnahkan.
+- Harus diinisialisasi
+- Tidak bisa menggunakan access modifier
+
+Instance variable:
+- Dibuat di dalam kelas namun di luar method, constructor, atau blok 
+- Bisa diakses oleh semua method, constructor atau blok dalam kelas tersebut
+- Terbentuk bersamaan dengan terbentuknya object dari variable tersebut dan musnah ketika objectnya dimusnahkan
+- Memiliki nilai default
+- Bisa menggunakan access modifier
+
+6. git clone [masukkan URL repo tanpa bracket]
+
+7. git config --global user.email [masukkan alamat email tanpa bracket]
+
+8.
+
+9. Seharusnya bukan "android.permission.CALL_USER" melainkan "android.permission.CALL_PHONE"
+
+10. Jika var i = 15, maka yang terjadi adalah Log.d dijalankan dengan pesan yang muncul berupa BINAR: habis dibagi tiga. Kemudian var i di-update menjadi 16, dan melakukan iterasi terus sampai sampai keluar dari loop.
