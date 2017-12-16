@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.hushshush.boardstock.Restock"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Periode:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/period_input"
+            android:hint="Contoh: Biweekly 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Stok awal:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/beginning_stock_input"
+            android:hint="Jumlah stok di awal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Terjual:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/sold_item_input"
+            android:hint="Jumlah barang terjual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Beli:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/bought_item_input"
+            android:hint="Jumlah barang dibeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Penyuplai:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/supplier_input"
+            android:hint="Perusahaan penyuplai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Tanggal:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/transaction_date_input"
+            android:inputType="date"
+            android:hint="Tanggal pembelian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Total:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/transaction_total_input"
+            android:inputType="number"
+            android:hint="Total nilai pembelian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:text="Stok akhir:"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/ending_stock_input"
+            android:inputType="number"
+            android:hint="Jumlah stok di akhir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:id="@+id/make_new"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="Simpan"
+        android:background="@color/mega"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
